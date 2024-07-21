@@ -1,0 +1,21 @@
+{
+  "name": "job-portal",
+  "version": "1.0.0",
+  "description": "job portal project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "index": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  }
+}
